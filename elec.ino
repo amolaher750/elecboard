@@ -33,6 +33,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
 	Serial.print(action);
 	Serial.print("]");
 	Serial.println();
+	// add toggle logic here
 }
 
 void reconnect() {
